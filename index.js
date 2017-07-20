@@ -16,7 +16,7 @@ function requestHandler(resolve, reject) {
     // Handle library error
     if (error) reject(error);
 
-    const metaStatus = response.statusCode % 100;
+    const metaStatus = parseInt(response.statusCode / 100);
 
     // Reject if status is not 2xx or 3xx
     if (metaStatus === 4 || metaStatus === 5) {

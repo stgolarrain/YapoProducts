@@ -12,7 +12,7 @@ exports.request = {
   formData: {
     ai_accept_conditions: 'on',
     area_code: 2,
-    body: 'Prueba Santiago 05',
+    body: 'Prueba Santiago 06',
     category_group: 6120,
     check_type_diff: 0,
     communes: 306,
@@ -30,7 +30,7 @@ exports.request = {
     price: 19990,
     region:15,
     sub_category: 0,
-    subject: 'Prueba Santiago 05',
+    subject: 'Prueba Santiago 06',
     'thumbnail_digest[]': '2f6eff1a9e3d089807fabecc6a8132f9',
   }
 }
